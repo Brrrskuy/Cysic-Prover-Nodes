@@ -33,11 +33,19 @@ Requirement Hardware :
 Please make sure, Change `0x-Fill-in-your-reward-address-here` to your Address Connected in Cysic EVM Keplr and Change `Your_RPC_URL` in Alchemy RPC Endpoint Ethereum Mainnet
 
 ## 3. Running Your Prover Nodes
+  Create Screen , if `Prover Nodes Successfull` running Detached screen `CTRL+A+D`
+  ```
+  screen -S cysic
+  ```
 🗣Start Your Prover Nodes `(same for both)`
   ```
   cd ~/cysic-prover/ && bash start.sh
   ```
-
+  if see screen 
+  ```
+  screen -r cysic
+  ```
+  
 ------------------------------------------------------------------
 ## Join Telegram Channel 
 For Updates, Questions and other Guides Join the Community :
